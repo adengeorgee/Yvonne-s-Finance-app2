@@ -1,4 +1,4 @@
-# Yvonne's Finance Manager v16
+# Yvonne's Finance Manager v17
 
 Replace index.html, sw.js and README.md in the existing GitHub Pages repository (manifest.json is unchanged).
 Keep the same GitHub Pages URL so the browser keeps the same local storage; existing data and the old PIN are migrated automatically.

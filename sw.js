@@ -1,4 +1,4 @@
-const CACHE='finance-os-v16';
+const CACHE='finance-os-v17';
 const ASSETS=['./','./index.html','./manifest.json'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil((async()=>{for(const k of await caches.keys())if(k.startsWith('finance-os-')&&k!==CACHE)await caches.delete(k);await self.clients.claim()})()));
