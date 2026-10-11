@@ -1,0 +1,10 @@
+{
+  "name": "Yvonne's Finance Manager",
+  "short_name": "Finance OS",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#edf1f7",
+  "theme_color": "#eef2f7",
+  "orientation": "portrait",
+  "icons": []
+}
