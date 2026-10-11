@@ -1,5 +1,6 @@
-# Yvonne's Finance Manager v14
+# Yvonne's Finance Manager v16
 
-Upload and replace index.html, manifest.json, sw.js, README.md in the existing GitHub Pages repository.
+Replace index.html, sw.js and README.md in the existing GitHub Pages repository (manifest.json is unchanged).
+Keep the same GitHub Pages URL so the browser keeps the same local storage; existing data and the old PIN are migrated automatically.
 
-The Forgot PIN button now removes only the saved PIN and returns to the app's built-in PIN setup form. It does not delete finance records. Keep using the same GitHub Pages URL so the browser uses the same local storage origin.
+After setting a PIN you get a one-time recovery code. Write it down: it is the only way to reset a forgotten PIN without erasing data.
